@@ -12,7 +12,6 @@ C:\Projects\VueTourist\bin\Debug\netcoreapp3.1\VueTourist.Views.pdb
 C:\Projects\VueTourist\obj\Debug\netcoreapp3.1\VueTourist.csprojAssemblyReference.cache
 C:\Projects\VueTourist\obj\Debug\netcoreapp3.1\staticwebassets\VueTourist.StaticWebAssets.Manifest.cache
 C:\Projects\VueTourist\obj\Debug\netcoreapp3.1\staticwebassets\VueTourist.StaticWebAssets.xml
-C:\Projects\VueTourist\obj\Debug\netcoreapp3.1\VueTourist.MvcApplicationPartsAssemblyInfo.cache
 C:\Projects\VueTourist\obj\Debug\netcoreapp3.1\VueTourist.RazorAssemblyInfo.cache
 C:\Projects\VueTourist\obj\Debug\netcoreapp3.1\VueTourist.RazorAssemblyInfo.cs
 C:\Projects\VueTourist\obj\Debug\netcoreapp3.1\VueTourist.AssemblyInfoInputs.cache
@@ -34,3 +33,4 @@ C:\Projects\VueTourist\obj\Debug\netcoreapp3.1\VueTourist.dll
 C:\Projects\VueTourist\obj\Debug\netcoreapp3.1\VueTourist.pdb
 C:\Projects\VueTourist\obj\Debug\netcoreapp3.1\VueTourist.csproj.CopyComplete
 C:\Projects\VueTourist\bin\Debug\netcoreapp3.1\web.config
+C:\Projects\VueTourist\obj\Debug\netcoreapp3.1\VueTourist.MvcApplicationPartsAssemblyInfo.cache

@@ -29,6 +29,13 @@
             Try again?
         </button>
     </div>
+
+    <h2>Score: {{ score }}</h2><br /><br />
+    <h4>Game rules</h4>
+    <p>
+        1. Move the green dot to prevent it hitting the red dot<br />
+        2. Moving around gives you extra points.
+    </p>
 </div>
 
 <script>
@@ -37,23 +44,28 @@
         data: {
             title: 'Vue Tourist',
             playerDead: false,
-            playerPosX: 5,
-            playerPosY: 5,
-            bouncerPosX: 9,
-            bouncerPosY: 9
+            playerPosX: 1,
+            playerPosY: 1,
+            bouncerPosX: 10,
+            bouncerPosY: 10,
+            score: 0
         },
         watch: {
             playerPosX: function () {
                 this.checkPlayerDeath();
+                this.score += 15;
             },
             playerPosY: function () {
                 this.checkPlayerDeath();
+                this.score += 15;
             },
             bouncerPosX: function () {
                 this.checkPlayerDeath();
+                this.score += 15;
             },
             bouncerPosY: function () {
                 this.checkPlayerDeath();
+                this.score += 15;
             }
         },
         mounted() {
@@ -96,8 +108,10 @@
                 }
 
                 if (!this.playerDead) {
+                    this.score += 100;
+
                     var self = this;
-                    setTimeout(self.moveBouncer, 50);
+                    setTimeout(self.moveBouncer, 40);
                 }
             }
         }
