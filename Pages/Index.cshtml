@@ -5,7 +5,7 @@
 
 <div id="playfield">
     <div v-if="!playerDead">
-        <input onblur="this.focus()" autofocus type="text" id="controller"
+        <input onblur="this.focus()" autofocus type="text" id="controller" placeholder="Focus here to control the green dot..." maxlength="1"
                v-on:keydown.left="playerPosX = playerPosX <= 1 ? 1 : (playerPosX-1)"
                v-on:keydown.right="playerPosX = playerPosX >= 10 ? 10 : (playerPosX+1)"
                v-on:keydown.up="playerPosY = playerPosY <= 1 ? 1 : (playerPosY-1)"
@@ -133,10 +133,10 @@
     }
 
     #controller, #no-controller {
-        width: 2px;
-        height: 2px;
+        width: 300px;
+        height: 20px;
         background: white;
-        color: white;
+        color: black;
         border: 1px solid white;
     }
 
